@@ -10,10 +10,10 @@ services:
     environment:
       WIREPOD_DATA_DIR: /data
     ports:
-      - "80:80"
-      - "443:443"
-      - "8080:8080"
-      - "8084:8084"
+      - "3118:80"
+      - "3119:443"
+      - "3120:8080"
+      - "3121:8084"
     volumes:
       - wire-pod-data:/data
       - wire-pod-images:/images
